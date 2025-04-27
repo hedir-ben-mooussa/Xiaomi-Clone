@@ -1,12 +1,43 @@
-# React + Vite
+# Xiaomi Website Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a clone of the official Xiaomi website, built using **React** and other modern web technologies. The purpose of this project is to practice and replicate the user interface of the Xiaomi website, focusing on UI/UX design and responsiveness. It includes components like product lists, sliders, a sticky header, and a "Back to Top" button.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Installation 🚀
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Create Project
+
+Start by creating a new Vite project using the following command:
+
+```bash
+npm create vite@latest
+```
+### 2. Navigate to the Project Directory
+```bash
+cd xiaomi-clone
+```
+### 3. Install Dependencies
+```bash
+npm install
+```
+### 4. Install Additional Libraries
+### Install React Icons 🖼️
+```bash
+npm install react-icons --save
+```
+### Install Bootstrap for Styling 💅
+```bash
+npm install bootstrap
+```
+### Install Swiper for Creating Sliders 🌀
+```bash
+npm install swiper
+```
+### 5. Usage 💻
+Once you've set up the project and installed the necessary dependencies, you can start the development server with:
+```bash
+npm run dev
+```
+This will start the Vite development server, and you can view the project in your browser at:
+http://localhost:5173/
