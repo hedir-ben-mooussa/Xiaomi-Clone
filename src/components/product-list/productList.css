@@ -1,0 +1,54 @@
+.product-list-container {
+  width: 100%; /* plus de 90% */
+  margin: 0; /* enlever auto */
+  padding: 20px;
+  background: #f8f8f8;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 15px;
+}
+
+.product-image-container {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.product-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.product-name {
+  font-size: 1.1rem;
+  margin: 10px 0 5px;
+}
+
+.product-price {
+  color: #ff5722;
+  font-weight: bold;
+}
+.swiper-pagination-bullet {
+  
+  background: #ff5722;
+ 
+  opacity: 1;
+}
+.swiper-pagination {
+  margin-top: 20px; /* espace entre les cartes et les points */
+  position: relative; /* très important pour éviter qu'ils soient en overlay */
+}
+
+
+.swiper-pagination-bullet-active {
+  background: #ff9800;
+}
