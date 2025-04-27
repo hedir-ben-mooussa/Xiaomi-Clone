@@ -1,7 +1,59 @@
 ul{
     list-style-type: none;
+    font-size: 19px;
+    font-weight: 500;
+    color: #7A7A7A;
 }
 li{
     padding: 10px;
     
 }
+.logo{
+    height: 50px;
+    width: auto;
+}
+
+.bg-header{
+background-color: white;
+border-bottom: 1px solid #eeee;
+position: sticky;
+
+}
+
+.layout{
+    margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+.search-bar{
+    background-color:#19191908 ;
+    border-width:1px 1px 1px 1px;
+    border-color:#19191908;
+    border-style: solid;
+
+}
+.search-input{
+    padding: 5px;
+    font-size: 14px;
+    border-color: #19191908;
+}
+
+::placeholder {
+    color: #7A7A7A;
+    opacity: 0.8; 
+}
+
+.notif {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
