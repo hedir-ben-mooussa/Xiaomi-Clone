@@ -7,3 +7,38 @@
 .flex-row{
 flex-direction: row;
 }
+.space-between{
+    justify-content: space-between;
+}
+.align-item-center{
+    align-items: center;
+}
+.align-item-start{
+    align-items: start;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-start{
+    justify-content: start;
+}
+
+.relative{
+    position: relative;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+.gap1{
+    gap: 10px;
+}
+.gap2{
+    gap: 20px;
+}
+.gap3{
+    gap: 30px;
+}
+*:focus {
+    outline: none;
+}
