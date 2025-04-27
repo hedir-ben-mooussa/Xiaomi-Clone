@@ -1,0 +1,41 @@
+.Contact-title{
+   
+    font-family: Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 28px;
+
+}
+.footer{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #191919;
+    color: #FFFFFF;
+
+}
+
+input{
+    font-size: 14px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #ced4da;
+}
+button{
+    font-size: 14px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #ced4da;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.my-2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
