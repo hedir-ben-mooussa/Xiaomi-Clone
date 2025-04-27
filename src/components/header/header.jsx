@@ -21,7 +21,7 @@ export function Header() {
                 <div className='flex flex-col'>
                     <input type="search" placeholder='Rechercher ..' className='search-input' />
                     <div className='flex search-bar' >
-                        <FaSearch style={{ width: "20px", height: "20px", padding: "2px", paddingLeft: "13px" }} />
+                        <FaSearch style={{ width: "20px", height: "20px", padding: "2px" ,paddingLeft: "9px" }} />
                     </div>
                 </div>
                 <div className='relative '>
