@@ -1,0 +1,118 @@
+.redmi-products-section {
+  width: 100%;
+  padding: 20px 0;
+  background: #f8f8f8; /* Fond légèrement gris */
+}
+  
+.products-container {
+  display: flex;
+  width: 100%;
+  gap: 20px; /* Espace entre les cartes */
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.product-card {
+  flex: 1; /* Chaque carte prend une part égale */
+  min-width: 0; /* Empêche le débordement */
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-header, 
+  .product-description, 
+  .product-features, 
+  .product-price, 
+  .product-image-container {
+    width: 100%; /* Prend toute la largeur de la carte */
+    text-align: center; /* Centre le texte */
+  }
+  .product-title {
+    font-size: 1.8rem;
+    color: black; /* Rouge Xiaomi */
+    margin: 0;
+    line-height: 1.2;
+  }
+  
+  .product-subtitle {
+    font-size: 1.8rem;
+    color: black;
+    margin: 0.5rem 0 0;
+    font-weight: 600;
+  }
+  
+  .product-description {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .product-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem;
+  }
+  
+  .product-features li {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1.2rem;
+  }
+  
+  .product-features li:before {
+    
+    
+    position: absolute;
+    left: 0;
+  }
+  
+  .product-price {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #FF6900;
+    margin: 1rem 0 0;
+  }
+  
+  @media (max-width: 768px) {
+    .products-container {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    
+    .product-card {
+      padding: 1.5rem;
+    }
+    
+    .product-title {
+      font-size: 1.6rem;
+    }
+    
+    .product-subtitle {
+      font-size: 1.2rem;
+    }
+  }
+  product-image-container {
+    margin: 1rem auto 0;
+    width: 80%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    background: #f5f5f5;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .product-image-container img {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+  }
