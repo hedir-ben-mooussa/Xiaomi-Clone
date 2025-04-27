@@ -1,0 +1,32 @@
+.box{
+    color: #FF6900;
+    border: 1px solid #FF6900;
+   padding: 3px;
+   font-size: 17px;
+    font-weight: 500;
+    border-radius:3px ;
+    border-color: #FF6900;
+}
+a:link {
+    color: #191919;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #191919;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #191919;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #191919;
+    background-color: transparent;
+    text-decoration: none;
+  }
