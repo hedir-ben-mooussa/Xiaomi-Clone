@@ -32,6 +32,7 @@ export function VideoList() {
 
   return (
     <div className="video-list">
+      <h2 className='flex flex-row justify-center' style={{color:"#191919",fontSize:"50px",padding:"10px"}}>Vidéos</h2>
       <Swiper
         modules={[Navigation]}  // Ajout du module de navigation
         spaceBetween={30}        // Espacement entre les vidéos
