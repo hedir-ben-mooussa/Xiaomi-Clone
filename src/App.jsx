@@ -7,7 +7,7 @@ import { WelcomeSection } from './components/welcome-section/welcome'
 import { ProductList } from './components/product-list/productList';
 import { RedmiProducts } from './components/redmiProduct/redmiProduct';
 import { VideoList } from './components/video-section/video';
-import { XiaomiProducts } from './components/location/xiaomiProducts/xiaomiProducts';
+
 
 function App() {
   
@@ -18,7 +18,7 @@ function App() {
     <WelcomeSection></WelcomeSection>
     <ProductList></ProductList>
     <RedmiProducts></RedmiProducts>
-    <XiaomiProducts></XiaomiProducts>
+    
     <VideoList></VideoList>
     <StoreLocation></StoreLocation>
     <Footer></Footer>
